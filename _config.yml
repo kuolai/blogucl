@@ -22,9 +22,8 @@ title: Your awesome title
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Test Case baseurl: "/blogua08" ---- Notice the leading slash as suggested by official jekyll _config.yml. ---- 
-  Enable browser inspect mode with cmd-option-i. Go to Network tab. You will see two "file not found" errors.
-  Go to Sources tab. You will find <s>/assets</s> directory that Jekyll created at the same level of /blogua08; while
-  it should be under /blogua08.
+  It works both cases in baseurl with or without leading slash. Identical site at [with slash](https://kuolai.github.io/blogua08/) 
+  or [without slash](https://kuolai.github.io/blogua10/)
 baseurl: "/blogua08" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
