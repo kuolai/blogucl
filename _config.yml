@@ -21,16 +21,16 @@
 title: Your awesome title
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Test Case baseurl: "/blogua08" ---- Notice the leading slash as suggested by official jekyll _config.yml. ---- 
-  It works both cases in baseurl with or without leading slash. Identical site at [with slash](https://kuolai.github.io/blogua08/) 
-  or [without slash](https://kuolai.github.io/blogua10/)
-baseurl: "/blogua08" # the subpath of your site, e.g. /blog
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "/bloguck" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
 
